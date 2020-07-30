@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C54DD5EA24D09FFD00682273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54DD5E924D09FFD00682273 /* AppDelegate.swift */; };
+		C54DD5EC24D09FFD00682273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54DD5EB24D09FFD00682273 /* SceneDelegate.swift */; };
+		C54DD5EE24D09FFD00682273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54DD5ED24D09FFD00682273 /* ViewController.swift */; };
+		C54DD5F124D09FFD00682273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54DD5EF24D09FFD00682273 /* Main.storyboard */; };
+		C54DD5F424D09FFD00682273 /* Feeling_Blue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C54DD5F224D09FFD00682273 /* Feeling_Blue.xcdatamodeld */; };
+		C54DD5F624D0A00100682273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54DD5F524D0A00100682273 /* Assets.xcassets */; };
+		C54DD5F924D0A00100682273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54DD5F724D0A00100682273 /* LaunchScreen.storyboard */; };
+		C54DD60424D0A00100682273 /* Feeling_BlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54DD60324D0A00100682273 /* Feeling_BlueTests.swift */; };
+		C54DD60F24D0A00100682273 /* Feeling_BlueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54DD60E24D0A00100682273 /* Feeling_BlueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C54DD60024D0A00100682273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54DD5DE24D09FFD00682273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C54DD5E524D09FFD00682273;
+			remoteInfo = "Feeling Blue";
+		};
+		C54DD60B24D0A00100682273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C54DD5DE24D09FFD00682273 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C54DD5E524D09FFD00682273;
+			remoteInfo = "Feeling Blue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C54DD5E624D09FFD00682273 /* Feeling Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Feeling Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54DD5E924D09FFD00682273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C54DD5EB24D09FFD00682273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C54DD5ED24D09FFD00682273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C54DD5F024D09FFD00682273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C54DD5F324D09FFD00682273 /* Feeling_Blue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Feeling_Blue.xcdatamodel; sourceTree = "<group>"; };
+		C54DD5F524D0A00100682273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C54DD5F824D0A00100682273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C54DD5FA24D0A00100682273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54DD5FF24D0A00100682273 /* Feeling BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feeling BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54DD60324D0A00100682273 /* Feeling_BlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeling_BlueTests.swift; sourceTree = "<group>"; };
+		C54DD60524D0A00100682273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54DD60A24D0A00100682273 /* Feeling BlueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Feeling BlueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C54DD60E24D0A00100682273 /* Feeling_BlueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feeling_BlueUITests.swift; sourceTree = "<group>"; };
+		C54DD61024D0A00100682273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C54DD5E324D09FFD00682273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54DD5FC24D0A00100682273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54DD60724D0A00100682273 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C54DD5DD24D09FFD00682273 = {
+			isa = PBXGroup;
+			children = (
+				C54DD5E824D09FFD00682273 /* Feeling Blue */,
+				C54DD60224D0A00100682273 /* Feeling BlueTests */,
+				C54DD60D24D0A00100682273 /* Feeling BlueUITests */,
+				C54DD5E724D09FFD00682273 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C54DD5E724D09FFD00682273 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C54DD5E624D09FFD00682273 /* Feeling Blue.app */,
+				C54DD5FF24D0A00100682273 /* Feeling BlueTests.xctest */,
+				C54DD60A24D0A00100682273 /* Feeling BlueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C54DD5E824D09FFD00682273 /* Feeling Blue */ = {
+			isa = PBXGroup;
+			children = (
+				C54DD5E924D09FFD00682273 /* AppDelegate.swift */,
+				C54DD5EB24D09FFD00682273 /* SceneDelegate.swift */,
+				C54DD5ED24D09FFD00682273 /* ViewController.swift */,
+				C54DD5EF24D09FFD00682273 /* Main.storyboard */,
+				C54DD5F524D0A00100682273 /* Assets.xcassets */,
+				C54DD5F724D0A00100682273 /* LaunchScreen.storyboard */,
+				C54DD5FA24D0A00100682273 /* Info.plist */,
+				C54DD5F224D09FFD00682273 /* Feeling_Blue.xcdatamodeld */,
+			);
+			path = "Feeling Blue";
+			sourceTree = "<group>";
+		};
+		C54DD60224D0A00100682273 /* Feeling BlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				C54DD60324D0A00100682273 /* Feeling_BlueTests.swift */,
+				C54DD60524D0A00100682273 /* Info.plist */,
+			);
+			path = "Feeling BlueTests";
+			sourceTree = "<group>";
+		};
+		C54DD60D24D0A00100682273 /* Feeling BlueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C54DD60E24D0A00100682273 /* Feeling_BlueUITests.swift */,
+				C54DD61024D0A00100682273 /* Info.plist */,
+			);
+			path = "Feeling BlueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C54DD5E524D09FFD00682273 /* Feeling Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54DD61324D0A00100682273 /* Build configuration list for PBXNativeTarget "Feeling Blue" */;
+			buildPhases = (
+				C54DD5E224D09FFD00682273 /* Sources */,
+				C54DD5E324D09FFD00682273 /* Frameworks */,
+				C54DD5E424D09FFD00682273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Feeling Blue";
+			productName = "Feeling Blue";
+			productReference = C54DD5E624D09FFD00682273 /* Feeling Blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C54DD5FE24D0A00100682273 /* Feeling BlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54DD61624D0A00100682273 /* Build configuration list for PBXNativeTarget "Feeling BlueTests" */;
+			buildPhases = (
+				C54DD5FB24D0A00100682273 /* Sources */,
+				C54DD5FC24D0A00100682273 /* Frameworks */,
+				C54DD5FD24D0A00100682273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C54DD60124D0A00100682273 /* PBXTargetDependency */,
+			);
+			name = "Feeling BlueTests";
+			productName = "Feeling BlueTests";
+			productReference = C54DD5FF24D0A00100682273 /* Feeling BlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C54DD60924D0A00100682273 /* Feeling BlueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C54DD61924D0A00100682273 /* Build configuration list for PBXNativeTarget "Feeling BlueUITests" */;
+			buildPhases = (
+				C54DD60624D0A00100682273 /* Sources */,
+				C54DD60724D0A00100682273 /* Frameworks */,
+				C54DD60824D0A00100682273 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C54DD60C24D0A00100682273 /* PBXTargetDependency */,
+			);
+			name = "Feeling BlueUITests";
+			productName = "Feeling BlueUITests";
+			productReference = C54DD60A24D0A00100682273 /* Feeling BlueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C54DD5DE24D09FFD00682273 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = KWK;
+				TargetAttributes = {
+					C54DD5E524D09FFD00682273 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					C54DD5FE24D0A00100682273 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C54DD5E524D09FFD00682273;
+					};
+					C54DD60924D0A00100682273 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = C54DD5E524D09FFD00682273;
+					};
+				};
+			};
+			buildConfigurationList = C54DD5E124D09FFD00682273 /* Build configuration list for PBXProject "Feeling Blue" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C54DD5DD24D09FFD00682273;
+			productRefGroup = C54DD5E724D09FFD00682273 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C54DD5E524D09FFD00682273 /* Feeling Blue */,
+				C54DD5FE24D0A00100682273 /* Feeling BlueTests */,
+				C54DD60924D0A00100682273 /* Feeling BlueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C54DD5E424D09FFD00682273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54DD5F924D0A00100682273 /* LaunchScreen.storyboard in Resources */,
+				C54DD5F624D0A00100682273 /* Assets.xcassets in Resources */,
+				C54DD5F124D09FFD00682273 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54DD5FD24D0A00100682273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54DD60824D0A00100682273 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C54DD5E224D09FFD00682273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54DD5EE24D09FFD00682273 /* ViewController.swift in Sources */,
+				C54DD5EA24D09FFD00682273 /* AppDelegate.swift in Sources */,
+				C54DD5F424D09FFD00682273 /* Feeling_Blue.xcdatamodeld in Sources */,
+				C54DD5EC24D09FFD00682273 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54DD5FB24D0A00100682273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54DD60424D0A00100682273 /* Feeling_BlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C54DD60624D0A00100682273 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C54DD60F24D0A00100682273 /* Feeling_BlueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C54DD60124D0A00100682273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C54DD5E524D09FFD00682273 /* Feeling Blue */;
+			targetProxy = C54DD60024D0A00100682273 /* PBXContainerItemProxy */;
+		};
+		C54DD60C24D0A00100682273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C54DD5E524D09FFD00682273 /* Feeling Blue */;
+			targetProxy = C54DD60B24D0A00100682273 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C54DD5EF24D09FFD00682273 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54DD5F024D09FFD00682273 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C54DD5F724D0A00100682273 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C54DD5F824D0A00100682273 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C54DD61124D0A00100682273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C54DD61224D0A00100682273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C54DD61424D0A00100682273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Feeling Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kind-Koders.Feeling-Blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C54DD61524D0A00100682273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Feeling Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kind-Koders.Feeling-Blue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C54DD61724D0A00100682273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Feeling BlueTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kind-Koders.Feeling-BlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feeling Blue.app/Feeling Blue";
+			};
+			name = Debug;
+		};
+		C54DD61824D0A00100682273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Feeling BlueTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kind-Koders.Feeling-BlueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Feeling Blue.app/Feeling Blue";
+			};
+			name = Release;
+		};
+		C54DD61A24D0A00100682273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Feeling BlueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kind-Koders.Feeling-BlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Feeling Blue";
+			};
+			name = Debug;
+		};
+		C54DD61B24D0A00100682273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Feeling BlueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kind-Koders.Feeling-BlueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Feeling Blue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C54DD5E124D09FFD00682273 /* Build configuration list for PBXProject "Feeling Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54DD61124D0A00100682273 /* Debug */,
+				C54DD61224D0A00100682273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54DD61324D0A00100682273 /* Build configuration list for PBXNativeTarget "Feeling Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54DD61424D0A00100682273 /* Debug */,
+				C54DD61524D0A00100682273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54DD61624D0A00100682273 /* Build configuration list for PBXNativeTarget "Feeling BlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54DD61724D0A00100682273 /* Debug */,
+				C54DD61824D0A00100682273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C54DD61924D0A00100682273 /* Build configuration list for PBXNativeTarget "Feeling BlueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C54DD61A24D0A00100682273 /* Debug */,
+				C54DD61B24D0A00100682273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C54DD5F224D09FFD00682273 /* Feeling_Blue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C54DD5F324D09FFD00682273 /* Feeling_Blue.xcdatamodel */,
+			);
+			currentVersion = C54DD5F324D09FFD00682273 /* Feeling_Blue.xcdatamodel */;
+			path = Feeling_Blue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C54DD5DE24D09FFD00682273 /* Project object */;
+}
